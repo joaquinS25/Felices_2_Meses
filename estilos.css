@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'bakery';
+    src: url('http://codesbymerc.b1.jcink.com/uploads/codesbymerc/bakery.woff') format('woff'),
+        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        url('http://codesbymerc.b1.jcink.com/uploads/codesbymerc/bakery.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+.nvlpcn {
+    position: relative;
+    width: 450px;
+    margin: 100px auto;
+    height: 270px;
+}
+
+.nvlplft,
+.nvlprgt {
+    width: 0;
+    height: 0;
+    top: 0;
+    position: absolute;
+}
+
+.nvlplft {
+    border-bottom: 270px solid #E15349;
+    border-right: 450px solid transparent;
+    border-left: 0 solid transparent;
+}
+
+.nvlprgt {
+    border-bottom: 270px solid #E95F55;
+    border-left: 450px solid transparent;
+    border-right: 0 solid transparent;
+}
+
+.nvlpbhn {
+    width: 450px;
+    height: 270px;
+    position: absolute;
+    background: #bf433b;
+    top: 0;
+}
+
+.lttr {
+    width: 250px;
+    height: 50px;
+    background: #f7f7f7;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    padding: 0 50px;
+    overflow: auto;
+    box-shadow: 0 0 2px #bfbfbf;
+    border-top: 50px solid #f7f7f7;
+    border-bottom: 50px solid #f7f7f7;
+    font-size: 11px;
+    text-align: justify;
+    color: #000;
+    font-family: 'Alegreya', serif;
+}
+
+.lttr .sgn {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 14px;
+    text-align: right;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.lttr::-webkit-scrollbar {
+    width: 3px;
+}
+
+.lttr::-webkit-scrollbar-track-piece {
+    background-color: #fff;
+}
+
+.lttr::-webkit-scrollbar-thumb {
+    background-color: #CF4647;
+    border: none !important;
+}
+
+.trs {
+    transition-duration: .75s;
+    -webkit-transition-duration: .75s;
+    -moz-transition-duration: .75s;
+    -ms-transition-duration: .75s;
+    -o-transition-duration: .75s;
+}
+
+.nvlpcn:hover>.lttr {
+    top: -65px;
+    height: 300px;
+    z-index: 2;
+}
+
+.nvlpcn:hover>.nvlpbhn,
+.nvlpcn:hover>.nvlplft,
+.nvlpcn:hover>.nvlprgt,
+.nvlpcn:hover>.nvlptrg {
+    opacity: 0;
+}
+
+.dl {
+    transition-delay: 0s;
+}
+
+.crd {
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    color: #fff !important;
+    font-family: calibri;
+    font-size: 8px;
+    text-transform: uppercase;
+    background: #000;
+}
+
+.ttl {
+    font-family: bakery;
+    font-weight: normal;
+    font-size: 30px;
+    color: #CF4647;
+}
+
+.frm {
+    font-family: bakery;
+    font-weight: normal;
+    font-size: 30px;
+    color: #CF4647;
+    text-align: right;
+    margin-bottom: -5px;
+}
+
+/*BOTON*/
+.btn {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    margin-left: 650px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    margin-left: 650px;
+}
+.centrar {
+    text-align: center;
+    justify-content: space-between; }
+    .letraTipoProducto {
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-right: 60px;
+        font-family: "Open Sans", cursive;
+        font-weight: bold;
+        font-size: 3rem;
+        font-weight: 500;
+        line-height: 1.4rem;
+        text-shadow: 0 0 10px #df1010;
+        color: #df1010; }
